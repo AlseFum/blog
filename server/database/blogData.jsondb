@@ -1,0 +1,525 @@
+{
+    "filename": "./server/database/blogData.jsondb",
+    "collections": [
+        {
+            "name": "users",
+            "data": [
+                {
+                    "uid": "cola_replica01",
+                    "authen": 666,
+                    "avatar": "defaultAvatar",
+                    "postsID": [
+                        "colatrash01",
+                        "post6426097",
+                        "post4560598",
+                        "post6091416",
+                        "post1625675",
+                        "post8266209",
+                        "post2602722",
+                        "post4344080",
+                        "post4313614",
+                        "post8321861",
+                        "post9741814",
+                        "post9617059",
+                        "post317742",
+                        "post8131663",
+                        "post8578888",
+                        "post2533312",
+                        "post5572130"
+                    ],
+                    "meta": {
+                        "revision": 16,
+                        "created": 1694604175522,
+                        "version": 0,
+                        "updated": 1711510661986
+                    },
+                    "$loki": 1,
+                    "comments": []
+                },
+                {
+                    "uid": "cola_replica23",
+                    "authen": 233,
+                    "avatar": "defaultAvatar",
+                    "postsID": [
+                        "colatrash02"
+                    ],
+                    "meta": {
+                        "revision": 0,
+                        "created": 1694604175522,
+                        "version": 0
+                    },
+                    "$loki": 2
+                },
+                {
+                    "uid": "cola_replica66",
+                    "authen": 444,
+                    "avatar": "defaultAvatar",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1694604175522,
+                        "version": 0
+                    },
+                    "$loki": 3
+                },
+                {
+                    "uid": "cola_replica01",
+                    "authen": 666,
+                    "avatar": "defaultAvatar",
+                    "postsID": [
+                        "colatrash01"
+                    ],
+                    "meta": {
+                        "revision": 0,
+                        "created": 1694604184232,
+                        "version": 0
+                    },
+                    "$loki": 4
+                },
+                {
+                    "uid": "cola_replica23",
+                    "authen": 233,
+                    "avatar": "defaultAvatar",
+                    "postsID": [
+                        "colatrash02"
+                    ],
+                    "meta": {
+                        "revision": 0,
+                        "created": 1694604184232,
+                        "version": 0
+                    },
+                    "$loki": 5
+                },
+                {
+                    "uid": "cola_replica66",
+                    "authen": 444,
+                    "avatar": "defaultAvatar",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1694604184232,
+                        "version": 0
+                    },
+                    "$loki": 6
+                },
+                {
+                    "uid": "Choky",
+                    "authen": "123",
+                    "avatar": "default",
+                    "meta": {
+                        "revision": 1,
+                        "created": 1695202804903,
+                        "version": 0,
+                        "updated": 1696478480677
+                    },
+                    "$loki": 8,
+                    "postsID": [
+                        "pexp"
+                    ]
+                },
+                {
+                    "nickname": "地狱猛男",
+                    "uid": "doomguy",
+                    "postsID": [
+                        "post4211709"
+                    ],
+                    "avatar": "defaultAvatar",
+                    "password": "d",
+                    "checkpassword": "d",
+                    "meta": {
+                        "revision": 1,
+                        "created": 1695967227011,
+                        "version": 0,
+                        "updated": 1696577149484
+                    },
+                    "$loki": 12,
+                    "status": 200,
+                    "comments": []
+                }
+            ],
+            "idIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                12
+            ],
+            "binaryIndices": {},
+            "constraints": null,
+            "uniqueNames": [],
+            "transforms": {},
+            "objType": "users",
+            "dirty": true,
+            "cachedIndex": null,
+            "cachedBinaryIndex": null,
+            "cachedData": null,
+            "adaptiveBinaryIndices": true,
+            "transactional": false,
+            "cloneObjects": false,
+            "cloneMethod": "parse-stringify",
+            "asyncListeners": false,
+            "disableMeta": false,
+            "disableChangesApi": true,
+            "disableDeltaChangesApi": true,
+            "autoupdate": false,
+            "serializableIndices": true,
+            "disableFreeze": true,
+            "ttl": null,
+            "maxId": 14,
+            "DynamicViews": [],
+            "events": {
+                "insert": [],
+                "update": [],
+                "pre-insert": [],
+                "pre-update": [],
+                "close": [],
+                "flushbuffer": [],
+                "error": [],
+                "delete": [
+                    null
+                ],
+                "warning": [
+                    null
+                ]
+            },
+            "changes": [],
+            "dirtyIds": []
+        },
+        {
+            "name": "posts",
+            "data": [
+                {
+                    "pid": "colatrash01",
+                    "authorId": "cola_replica01",
+                    "sub_title": "垃圾堆一号。",
+                    "title": "恭喜cola在这里堆了一堆测试用的东西",
+                    "likes": 3,
+                    "content": "\n,随机生成一些文字临列斗皆阵兵皆列兵在阵阵列阵者阵前皆列兵兵斗皆者者在斗兵斗阵在列者前列斗兵阵斗在兵兵者兵临皆列皆在列前在斗兵在兵皆者前阵皆临临兵临者者阵斗前斗阵斗列临临阵兵皆列斗皆在斗斗临在兵前阵阵斗临者在列列阵阵皆",
+                    "meta": {
+                        "revision": 3,
+                        "created": 1694604175522,
+                        "version": 0,
+                        "updated": 1695643380558
+                    },
+                    "$loki": 1,
+                    "comments": [
+                        "cwwww",
+                        "c00000007",
+                        "c00000008"
+                    ]
+                },
+                {
+                    "pid": "post6091416",
+                    "authorId": "cola_replica01",
+                    "title": "niaho",
+                    "content": "<h2>经典重现</h2><p>你很能打吗</p><p><strong>能打有什么用啊</strong></p><p>出来混，</p><ol><li>要有背景</li><li>要有实例</li></ol><p>原来是<u>小瘪三</u>（笑）</p>",
+                    "comments": [],
+                    "postsID": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2023-10-06T03:08:46.992Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1696561726996,
+                        "version": 0
+                    },
+                    "$loki": 9
+                },
+                {
+                    "pid": "post4313614",
+                    "authorId": "cola_replica01",
+                    "content": "",
+                    "comments": [],
+                    "postsID": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2023-10-06T06:29:25.953Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1696573765956,
+                        "version": 0
+                    },
+                    "$loki": 14
+                },
+                {
+                    "pid": "post4211709",
+                    "authorId": "doomguy",
+                    "content": "<p>阿塞飞看。 爱和送覅哈v哦i饿死vioaw；二手房的 </p>",
+                    "comments": [],
+                    "postsID": [],
+                    "fromUser": "doomguy",
+                    "last_update": "2023-10-06T07:25:49.490Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1696577149484,
+                        "version": 0
+                    },
+                    "$loki": 15
+                },
+                {
+                    "pid": "post8321861",
+                    "authorId": "cola_replica01",
+                    "content": "",
+                    "comments": [],
+                    "postsID": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2023-10-07T07:34:00.675Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1696664040678,
+                        "version": 0
+                    },
+                    "$loki": 16
+                },
+                {
+                    "pid": "post9741814",
+                    "authorId": "cola_replica01",
+                    "content": "<p>矮三分撒发</p>",
+                    "comments": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2023-10-07T07:39:06.360Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1696664346366,
+                        "version": 0
+                    },
+                    "$loki": 17
+                },
+                {
+                    "pid": "post9617059",
+                    "authorId": "cola_replica01",
+                    "content": "<p>as分阿塞飞</p>",
+                    "comments": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2023-10-07T07:39:32.985Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1696664372991,
+                        "version": 0
+                    },
+                    "$loki": 18
+                },
+                {
+                    "pid": "post317742",
+                    "authorId": "cola_replica01",
+                    "title": "可乐复制体于2023年10月11日",
+                    "content": "",
+                    "comments": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2023-10-11T07:22:45.385Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1697008965388,
+                        "version": 0
+                    },
+                    "$loki": 19
+                },
+                {
+                    "pid": "post8131663",
+                    "authorId": "cola_replica01",
+                    "title": "可乐复制体于2023年10月11日",
+                    "content": "<p>阿塞飞</p>",
+                    "comments": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2023-10-11T07:23:12.940Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1697008992943,
+                        "version": 0
+                    },
+                    "$loki": 20
+                },
+                {
+                    "pid": "post8578888",
+                    "authorId": "cola_replica01",
+                    "title": "可乐复制体于2023年10月11日",
+                    "content": "<p>a</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+                    "comments": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2023-10-11T07:47:05.912Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1697010425915,
+                        "version": 0
+                    },
+                    "$loki": 21
+                },
+                {
+                    "pid": "post2533312",
+                    "authorId": "cola_replica01",
+                    "title": "可乐复制体于2024年3月12日",
+                    "content": "<p>啊额发</p>",
+                    "comments": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2024-03-12T04:45:07.925Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1710218707923,
+                        "version": 0
+                    },
+                    "$loki": 22
+                },
+                {
+                    "pid": "post5572130",
+                    "authorId": "cola_replica01",
+                    "title": "可乐复制体于2024年3月27日",
+                    "content": "",
+                    "comments": [],
+                    "fromUser": "cola_replica01",
+                    "last_update": "2024-03-27T03:37:41.982Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1711510661985,
+                        "version": 0
+                    },
+                    "$loki": 23
+                }
+            ],
+            "idIndex": null,
+            "binaryIndices": {},
+            "constraints": null,
+            "uniqueNames": [],
+            "transforms": {},
+            "objType": "posts",
+            "dirty": true,
+            "cachedIndex": null,
+            "cachedBinaryIndex": null,
+            "cachedData": null,
+            "adaptiveBinaryIndices": true,
+            "transactional": false,
+            "cloneObjects": false,
+            "cloneMethod": "parse-stringify",
+            "asyncListeners": false,
+            "disableMeta": false,
+            "disableChangesApi": true,
+            "disableDeltaChangesApi": true,
+            "autoupdate": false,
+            "serializableIndices": true,
+            "disableFreeze": true,
+            "ttl": null,
+            "maxId": 23,
+            "DynamicViews": [],
+            "events": {
+                "insert": [],
+                "update": [],
+                "pre-insert": [],
+                "pre-update": [],
+                "close": [],
+                "flushbuffer": [],
+                "error": [],
+                "delete": [
+                    null
+                ],
+                "warning": [
+                    null
+                ]
+            },
+            "changes": [],
+            "dirtyIds": []
+        },
+        {
+            "name": "comments",
+            "data": [
+                {
+                    "cid": "c00000001",
+                    "fromUser": "cola_replica66",
+                    "content": "Good",
+                    "comments": [
+                        "c00000002",
+                        "c00000003"
+                    ],
+                    "meta": {
+                        "revision": 0,
+                        "created": 1694604175522,
+                        "version": 0
+                    },
+                    "$loki": 1
+                },
+                {
+                    "cid": "cg00000001",
+                    "fromUser": "doomguy",
+                    "content": "nihao",
+                    "replyTo": "post",
+                    "replyId": "colatrash02",
+                    "last_update": "2023-09-29T06:09:04.230Z",
+                    "meta": {
+                        "revision": 0,
+                        "created": 1695967744232,
+                        "version": 0
+                    },
+                    "$loki": 10
+                }
+            ],
+            "idIndex": null,
+            "binaryIndices": {},
+            "constraints": null,
+            "uniqueNames": [],
+            "transforms": {},
+            "objType": "comments",
+            "dirty": false,
+            "cachedIndex": null,
+            "cachedBinaryIndex": null,
+            "cachedData": null,
+            "adaptiveBinaryIndices": true,
+            "transactional": false,
+            "cloneObjects": false,
+            "cloneMethod": "parse-stringify",
+            "asyncListeners": false,
+            "disableMeta": false,
+            "disableChangesApi": true,
+            "disableDeltaChangesApi": true,
+            "autoupdate": false,
+            "serializableIndices": true,
+            "disableFreeze": true,
+            "ttl": null,
+            "maxId": 10,
+            "DynamicViews": [],
+            "events": {
+                "insert": [],
+                "update": [],
+                "pre-insert": [],
+                "pre-update": [],
+                "close": [],
+                "flushbuffer": [],
+                "error": [],
+                "delete": [
+                    null
+                ],
+                "warning": [
+                    null
+                ]
+            },
+            "changes": [],
+            "dirtyIds": []
+        }
+    ],
+    "databaseVersion": 1.5,
+    "engineVersion": 1.5,
+    "autosave": false,
+    "autosaveInterval": 5000,
+    "autosaveHandle": null,
+    "throttledSaves": true,
+    "options": {
+        "autoload": true,
+        "serializationMethod": "normal",
+        "destructureDelimiter": "$<\n",
+        "recursiveWait": true,
+        "recursiveWaitLimit": false,
+        "recursiveWaitLimitDuration": 2000,
+        "started": 1711508588828
+    },
+    "persistenceMethod": "fs",
+    "persistenceAdapter": null,
+    "verbose": false,
+    "events": {
+        "init": [
+            null
+        ],
+        "loaded": [],
+        "flushChanges": [],
+        "close": [],
+        "changes": [],
+        "warning": []
+    },
+    "ENV": "NODEJS"
+}
